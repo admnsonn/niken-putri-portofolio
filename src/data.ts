@@ -8,7 +8,7 @@ export const profileData = {
   phone: "+62 895-7072-30104",
   email: "nikenputri095@gmail.com",
   linkedIn: "https://www.linkedin.com/in/nikenputrym/",
-  profileImage: "/src/assets/images/niken_profile_1781255450691.jpeg",
+  profileImage: "/src/assets/images/fotoprofil.jpeg",
   bio: "Saya adalah lulusan Sarjana Pendidikan Guru Sekolah Dasar (PGSD) dari Universitas Pendidikan Indonesia yang berdedikasi tinggi dan memiliki semangat mendalam untuk menciptakan pengalaman belajar yang interaktif, kreatif, dan menyenangkan bagi anak-anak. Saya berpengalaman dalam merancang kurikulum kreatif (termasuk implementasi Kurikulum Merdeka), menerapkan metode pengajaran berbasis teknologi edukatif (EdTech), serta membangun relasi positif dan suportif dengan siswa maupun orang tua. Memiliki kemampuan komunikasi yang sabar dan efektif, serta handal dalam manajemen kelas guna mewujudkan ekosistem belajar yang kondusif untuk mencetak generasi muda berkarakter, kreatif, dan berprestasi.",
   tagline: "“Membentuk karakter, menghidupkan rasa ingin tahu, dan menginspirasi setiap mimpi di ruang kelas sekolah dasar.”",
 };
