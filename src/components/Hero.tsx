@@ -149,7 +149,7 @@ export default function Hero() {
                   id="hero-profile-avatar-img"
                   onError={(e) => {
                     // Fallback if the image doesn't load
-                    e.currentTarget.src = "https://picsum.photos/seed/niken/500/500";
+                    e.currentTarget.src = "";
                   }}
                 />
               </div>
