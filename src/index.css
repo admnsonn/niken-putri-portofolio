@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "Fira Code", ui-monospace, monospace;
+
+  --color-brand-50: #faf8f5;
+  --color-brand-100: #f5f0e6;
+  --color-brand-200: #ebdcc3;
+  --color-brand-300: #dfc29a;
+  --color-brand-400: #cfa36d;
+  --color-brand-500: #bf8546;
+  --color-brand-600: #a66a33;
+  --color-brand-700: #8c5327;
+  --color-brand-800: #73401f;
+  --color-brand-900: #5c301a;
+
+  --color-education-50: #f5fcfc;
+  --color-education-100: #daf5f3;
+  --color-education-200: #b9ece7;
+  --color-education-300: #8bddcf;
+  --color-education-400: #57c7b2;
+  --color-education-500: #1fa385;
+  --color-education-600: #168d6f;
+  --color-education-700: #127259;
+  --color-education-800: #105946;
+  --color-education-900: #0d4637;
+
+  --color-warm-accent-50: #fefaf0;
+  --color-warm-accent-100: #fdf2d5;
+  --color-warm-accent-200: #fae1aa;
+  --color-warm-accent-300: #f6ca78;
+  --color-warm-accent-400: #f0ab43;
+  --color-warm-accent-500: #e49122;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom styled scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ebdcc3;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dfc29a;
+}
