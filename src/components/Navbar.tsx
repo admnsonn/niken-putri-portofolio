@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BookOpen, Menu, X, Landmark, GraduationCap } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import logo from "../assets/images/Vector.png";
 
 interface NavbarProps {
   activeSection: string;
@@ -48,8 +49,8 @@ export default function Navbar({ activeSection }: NavbarProps) {
             className="flex items-center gap-2 group focus:outline-none"
             id="nav-logo-btn"
           >
-            <div className="p-2 bg-education-100 text-education-600 rounded-xl group-hover:bg-education-500 group-hover:text-white transition-colors duration-300">
-              <GraduationCap className="w-5 h-5" />
+            <div className="p-2 text-education-600 rounded-xl group-hover:text-white transition-colors duration-300">
+              <img src={logo} alt="Logo Niken Putri Melani" className="w-6 h-6" />
             </div>
             <div className="flex flex-col">
               <span className="font-sans font-extrabold text-sm tracking-tight text-brand-900 group-hover:text-education-600 transition-colors duration-300">

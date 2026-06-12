@@ -6,10 +6,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-[95vh] flex items-center pt-24 pb-12 overflow-hidden bg-gradient-to-br from-brand-50 via-warm-accent-50/20 to-education-50/40"
+      className="relative min-h-[95vh] flex items-center pt-24 pb-12 overflow-hidden bg-gradient-to-br from-brand-50 via-brand-50/20 to-education-50/40"
     >
       {/* Playful academic decorative shapes */}
-      <div className="absolute top-1/4 left-10 w-64 h-64 bg-amber-100 rounded-full filter blur-3xl opacity-30 -z-10" />
+      <div className="absolute top-1/4 left-10 w-64 h-64 bg-brand-100 rounded-full filter blur-3xl opacity-30 -z-10" />
       <div className="absolute bottom-10 right-20 w-80 h-80 bg-education-100 rounded-full filter blur-3xl opacity-40 -z-10" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -30,7 +30,7 @@ export default function Hero() {
 
             {/* Main Name & Title */}
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-brand-950 font-bold tracking-tight leading-tight mb-4 animate-fade-in" id="hero-title">
-              Mendidik dengan <span className="text-education-600 italic">Hati</span> & <span className="text-brand-500 relative inline-block">Kreativitas<span className="absolute left-0 bottom-0.5 w-full h-[6px] bg-warm-accent-300 -z-10 rounded-full" /></span>
+              Mendidik dengan <span className="text-education-600 italic">Hati</span> & <span className="text-brand-500 relative inline-block">Kreativitas<span className="absolute left-0 bottom-0.5 w-full h-[6px] bg-brand-300 -z-10 rounded-full" /></span>
             </h1>
 
             <h2 className="font-sans text-xl sm:text-2xl font-extrabold text-brand-850 tracking-tight mb-4">
@@ -117,12 +117,12 @@ export default function Hero() {
             <div className="relative w-full max-w-[360px] sm:max-w-[400px]">
               
               {/* Children Scribble Frame Background */}
-              <div className="absolute -inset-4 bg-amber-100 rounded-[36px] -rotate-3 border-2 border-dashed border-amber-300 -z-10" />
+              <div className="absolute -inset-4 bg-brand-100 rounded-[36px] -rotate-3 border-2 border-dashed border-brand-300 -z-10" />
               <div className="absolute -inset-1 bg-education-100 rounded-[36px] rotate-2 -z-10 shadow-lg border border-education-200" />
               
               {/* Cute Badge 1 */}
               <div className="absolute -top-4 -right-2 bg-white px-3 py-2 rounded-xl shadow-md border border-brand-200 rotate-6 flex items-center gap-1.5 z-20">
-                <div className="p-1 bg-amber-100 text-amber-500 rounded-full">
+                <div className="p-1 bg-brand-100 text-brand-500 rounded-full">
                   <Award className="w-3.5 h-3.5" />
                 </div>
                 <span className="text-[10px] font-extrabold text-brand-900 leading-none">Lulusan Terbaik UPI</span>
@@ -155,7 +155,7 @@ export default function Hero() {
               </div>
 
               {/* Floating decorative elements */}
-              <div className="absolute top-1/2 -right-8 w-12 h-12 bg-white rounded-full shadow-md border border-brand-200 flex items-center justify-center text-amber-500 rotate-12">
+              <div className="absolute top-1/2 -right-8 w-12 h-12 bg-white rounded-full shadow-md border border-brand-200 flex items-center justify-center text-brand-500 rotate-12">
                 <Sparkles className="w-5 h-5" />
               </div>
             </div>

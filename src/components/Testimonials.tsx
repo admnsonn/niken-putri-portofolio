@@ -18,7 +18,7 @@ export default function Testimonials() {
           <p className="text-sm text-slate-500 mt-2 max-w-xl mx-auto">
             Testimoni jujur dan hangat dari guru pendamping, wali murid, serta keceriaan anak-anak didiknya di sekolah dasar.
           </p>
-          <div className="w-16 h-1 bg-warm-accent-400 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-brand-400 mx-auto mt-4 rounded-full" />
         </div>
 
         {/* Testimonials Grid Layout */}
@@ -36,7 +36,7 @@ export default function Testimonials() {
               <div className="flex items-center justify-between mb-6">
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, sIdx) => (
-                    <Star key={sIdx} className="w-4 h-4 text-amber-400 fill-amber-400" />
+                    <Star key={sIdx} className="w-4 h-4 text-brand-400 fill-brand-400" />
                   ))}
                 </div>
                 <Quote className="w-8 h-8 text-brand-200 shrink-0" />

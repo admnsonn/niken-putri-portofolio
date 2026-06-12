@@ -5,34 +5,29 @@
   --font-serif: "Playfair Display", ui-serif, Georgia, serif;
   --font-mono: "Fira Code", ui-monospace, monospace;
 
-  --color-brand-50: #faf8f5;
-  --color-brand-100: #f5f0e6;
-  --color-brand-200: #ebdcc3;
-  --color-brand-300: #dfc29a;
-  --color-brand-400: #cfa36d;
-  --color-brand-500: #bf8546;
-  --color-brand-600: #a66a33;
-  --color-brand-700: #8c5327;
-  --color-brand-800: #73401f;
-  --color-brand-900: #5c301a;
+  --color-brand-50: #fdf8f7;
+  --color-brand-100: #fce9e6;
+  --color-brand-200: #f9d4ce;
+  --color-brand-300: #f5b8b0;
+  --color-brand-400: #f09992;
+  --color-brand-500: #eb7a75;
+  --color-brand-600: #d95e5a;
+  --color-brand-700: #b84846;
+  --color-brand-800: #973532;
+  --color-brand-900: #7c2620;
 
-  --color-education-50: #f5fcfc;
-  --color-education-100: #daf5f3;
-  --color-education-200: #b9ece7;
-  --color-education-300: #8bddcf;
-  --color-education-400: #57c7b2;
-  --color-education-500: #1fa385;
-  --color-education-600: #168d6f;
-  --color-education-700: #127259;
-  --color-education-800: #105946;
-  --color-education-900: #0d4637;
+  --color-education-50: #f0f7fd;
+  --color-education-100: #d6e9f5;
+  --color-education-200: #add5eb;
+  --color-education-300: #84c1e1;
+  --color-education-400: #5badd7;
+  --color-education-500: #3298cd;
+  --color-education-600: #2b7db3;
+  --color-education-700: #2462a0;
+  --color-education-800: #1d478d;
+  --color-education-900: #162c5f;
 
-  --color-warm-accent-50: #fefaf0;
-  --color-warm-accent-100: #fdf2d5;
-  --color-warm-accent-200: #fae1aa;
-  --color-warm-accent-300: #f6ca78;
-  --color-warm-accent-400: #f0ab43;
-  --color-warm-accent-500: #e49122;
+
 }
 
 @layer base {
@@ -48,14 +43,14 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #faf8f5;
+  background: #fdf8f7;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ebdcc3;
+  background: #f9d4ce;
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #dfc29a;
+  background: #f5b8b0;
 }

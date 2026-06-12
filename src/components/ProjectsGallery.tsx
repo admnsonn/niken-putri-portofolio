@@ -35,7 +35,7 @@ export default function ProjectsGallery() {
           <p className="text-sm text-slate-500 mt-3 max-w-xl mx-auto">
             Kumpulan instrumen pedagogis, media interaktif, dan modul pembelajaran inovatif yang saya desain khusus untuk mengoptimalkan potensi siswa.
           </p>
-          <div className="w-16 h-1 bg-warm-accent-400 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-brand-400 mx-auto mt-4 rounded-full" />
         </div>
 
         {/* Filter Navigation Category Tabs */}
@@ -92,7 +92,7 @@ export default function ProjectsGallery() {
                   {/* Recognition/Achievement overlay badge */}
                   {project.achievementBadge && (
                     <span className="absolute bottom-4 right-4 bg-education-600 text-white text-[9px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm flex items-center gap-1">
-                      <Sparkles className="w-3 h-3 text-amber-200 fill-amber-200" />
+                      <Sparkles className="w-3 h-3 text-brand-200 fill-brand-200" />
                       {project.achievementBadge}
                     </span>
                   )}
@@ -194,8 +194,8 @@ export default function ProjectsGallery() {
                         </div>
 
                         {selectedProject.achievementBadge && (
-                          <div className="p-3 bg-amber-50 rounded-xl border border-amber-200 flex items-center gap-2">
-                            <Sparkles className="w-5 h-5 text-amber-500 shrink-0 fill-amber-500" />
+                          <div className="p-3 bg-brand-50 rounded-xl border border-brand-200 flex items-center gap-2">
+                            <Sparkles className="w-5 h-5 text-brand-500 shrink-0 fill-brand-500" />
                             <span className="text-xs font-bold text-brand-900 leading-tight">
                               Sertifikat Penghargaan: {selectedProject.achievementBadge}
                             </span>
@@ -262,11 +262,11 @@ export default function ProjectsGallery() {
 
                         {/* 3. Dampak Terukur (Impact) */}
                         <div className="flex gap-3">
-                          <div className="p-2 bg-warm-accent-50 text-warm-accent-500 rounded-xl shrink-0 h-fit">
+                          <div className="p-2 bg-brand-100 text-brand-500 rounded-xl shrink-0 h-fit">
                             <TrendingUp className="w-5 h-5" />
                           </div>
                           <div>
-                            <h4 className="text-xs font-bold text-warm-accent-500 uppercase tracking-wider">Dampak & Hasil Terukur</h4>
+                            <h4 className="text-xs font-bold text-brand-500 uppercase tracking-wider">Dampak & Hasil Terukur</h4>
                             <p className="text-xs sm:text-sm font-bold text-brand-950 mt-1 leading-relaxed">
                               {selectedProject.impact}
                             </p>

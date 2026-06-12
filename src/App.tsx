@@ -50,7 +50,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF9F5] flex flex-col selection:bg-education-100 selection:text-education-900" id="app-root">
+    <div className="min-h-screen bg-[#fdf8f7] flex flex-col selection:bg-pink-100 selection:text-pink-900" id="app-root">
       
       {/* 1. Header Navigation */}
       <Navbar activeSection={activeSection} />
@@ -74,7 +74,7 @@ export default function App() {
             {/* Left Box - Branding info */}
             <div className="md:col-span-6 space-y-4">
               <div className="flex items-center gap-2" id="footer-branding-label">
-                <div className="p-2 bg-white/10 rounded-xl text-amber-300">
+                <div className="p-2 bg-white/10 rounded-xl text-pink-300">
                   <GraduationCap className="w-5 h-5" />
                 </div>
                 <span className="font-serif text-lg font-bold tracking-tight">
@@ -85,7 +85,7 @@ export default function App() {
                 Pendidikan Guru Sekolah Dasar (PGSD) lulusan Universitas Pendidikan Indonesia. Berfokus pada pilar pendidikan interaktif, integrasi digital sehat, serta pembentukan akhlak mulia sejak tingkat dasar pembelajaran.
               </p>
               <div className="flex items-center gap-1.5 text-xs text-brand-300">
-                <Sparkles className="w-4.5 h-4.5 text-amber-300" />
+                <Sparkles className="w-4.5 h-4.5 text-pink-300" />
                 <span>NPSN / BNSP Certified Operator</span>
               </div>
             </div>

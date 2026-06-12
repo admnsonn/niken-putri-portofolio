@@ -15,7 +15,7 @@ export default function About() {
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-950 mt-4 tracking-tight">
             Mengenal Lebih Dekat Ibu Guru Niken
           </h2>
-          <div className="w-16 h-1 bg-warm-accent-400 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-brand-400 mx-auto mt-4 rounded-full" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -37,7 +37,7 @@ export default function About() {
             </p>
 
             {/* Custom Interactive Tagline Box */}
-            <div className="p-6 bg-brand-50 rounded-2xl border-l-4 border-warm-accent-500 relative overflow-hidden shadow-sm">
+            <div className="p-6 bg-brand-50 rounded-2xl border-l-4 border-brand-400 relative overflow-hidden shadow-sm">
               <Quote className="w-10 h-10 text-brand-200 absolute -top-2 -right-2 opacity-50" />
               <p className="font-serif italic text-base sm:text-lg text-brand-800 leading-relaxed relative z-10">
                 {profileData.tagline}
@@ -93,8 +93,8 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-5 space-y-6"
           >
-            <div className="bg-gradient-to-br from-brand-100 to-warm-accent-50/10 p-6 sm:p-8 rounded-[28px] border border-brand-200 shadow-sm relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-amber-200/20 rounded-full filter blur-xl" />
+            <div className="bg-gradient-to-br from-brand-100 to-brand-50/10 p-6 sm:p-8 rounded-[28px] border border-brand-200 shadow-sm relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-brand-200/20 rounded-full filter blur-xl" />
               
               <div className="flex items-center gap-2 mb-6">
                 <GraduationCap className="w-6 h-6 text-brand-700" />
@@ -118,7 +118,7 @@ export default function About() {
 
                   {/* GPA Badge */}
                   <div className="p-3 bg-white/70 backdrop-blur-xs rounded-xl border border-brand-200/60 inline-flex items-center gap-2">
-                    <Award className="w-5 h-5 text-amber-500" />
+                    <Award className="w-5 h-5 text-brand-500" />
                     <div className="flex flex-col">
                       <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider leading-none">Indeks Prestasi Kumulatif</span>
                       <span className="text-sm font-extrabold text-brand-900 mt-0.5">{edu.gpa}</span>

@@ -70,7 +70,7 @@ export default function Contact() {
           <p className="text-sm text-slate-500 mt-2 max-w-xl mx-auto">
             Tertarik bekerja sama merancang kurikulum sekolah dasar kreatif, mengundang konsultasi program Kampus Merdeka, atau berkonsultasi mengenai media ajar inovatif?
           </p>
-          <div className="w-16 h-1 bg-warm-accent-400 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-brand-400 mx-auto mt-4 rounded-full" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-w-6xl mx-auto">
@@ -148,8 +148,8 @@ export default function Contact() {
             </div>
 
             {/* Heartwarming educational quote footer badge */}
-            <div className="p-6 bg-amber-50 rounded-3xl border border-amber-200 text-center relative overflow-hidden">
-              <Heart className="w-8 h-8 text-amber-200 absolute -top-1 -right-1 opacity-60 fill-amber-300" />
+            <div className="p-6 bg-brand-50 rounded-3xl border border-brand-200 text-center relative overflow-hidden">
+              <Heart className="w-8 h-8 text-pink-200 absolute -top-1 -right-1 opacity-60 fill-pink-300" />
               <p className="text-xs font-bold text-brand-900 leading-relaxed italic">
                 \"Anak-anak bukanlah wadah yang siap diisi air, melainkan sebuah pelita cahaya yang siap dinyalakan.\"
               </p>

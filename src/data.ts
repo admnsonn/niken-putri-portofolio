@@ -76,7 +76,7 @@ export const projectList: Project[] = [
     ],
     imageUrl: "https://picsum.photos/seed/reading/600/450",
     achievementBadge: "Proyek Terfavorit Kampus Mengajar",
-    colorTheme: "from-amber-400 to-warm-accent-500",
+    colorTheme: "from-brand-300 to-brand-500",
   },
   {
     id: "proj-2",

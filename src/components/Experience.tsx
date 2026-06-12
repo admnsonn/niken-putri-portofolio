@@ -15,7 +15,7 @@ export default function Experience() {
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-950 mt-4 tracking-tight">
             Pengalaman Profesional Pengajaran
           </h2>
-          <div className="w-16 h-1 bg-warm-accent-400 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-brand-400 mx-auto mt-4 rounded-full" />
         </div>
 
         {/* Timeline Layout */}
@@ -100,8 +100,8 @@ export default function Experience() {
                     </div>
 
                     {/* Certified Banner */}
-                    <div className="mt-6 p-3 bg-amber-50 rounded-xl border border-dashed border-amber-300 flex items-center gap-2">
-                      <Award className="w-5 h-5 text-amber-500 shrink-0" />
+                    <div className="mt-6 p-3 bg-brand-50 rounded-xl border border-dashed border-brand-300 flex items-center gap-2">
+                      <Award className="w-5 h-5 text-brand-500 shrink-0" />
                       <span className="text-[10px] font-bold text-brand-900 leading-tight">
                         Disertai surat tugas sertifikasi dari Kemendikbudristek RI sebagai Alumni Berkontribusi Baik.
                       </span>

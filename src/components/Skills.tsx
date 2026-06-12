@@ -1,5 +1,14 @@
 import { skillCategories } from "../data";
-import { GraduationCap, Laptop, Languages, Heart, Award, CheckSquare, ShieldCheck, Sparkles } from "lucide-react";
+import {
+  GraduationCap,
+  Laptop,
+  Languages,
+  Heart,
+  Award,
+  CheckSquare,
+  ShieldCheck,
+  Sparkles,
+} from "lucide-react";
 import { motion } from "motion/react";
 
 export default function Skills() {
@@ -30,23 +39,28 @@ export default function Skills() {
       case "Heart":
         return "bg-rose-50 text-rose-600 border-rose-200/60";
       default:
-        return "bg-amber-50 text-amber-600 border-amber-200/60";
+        return "bg-brand-50 text-brand-600 border-brand-200/60";
     }
   };
 
   return (
-    <section id="kompetensi" className="py-20 bg-brand-50 relative border-t border-b border-brand-100">
+    <section
+      id="kompetensi"
+      className="py-20 bg-brand-50 relative border-t border-b border-brand-100"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold text-education-600 uppercase tracking-widest bg-education-50 px-3.5 py-1.5 rounded-full border border-education-200">
             Keahlian & Sertifikasi
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-950 mt-4 tracking-tight" id="skills-heading">
+          <h2
+            className="font-serif text-3xl sm:text-4xl font-bold text-brand-950 mt-4 tracking-tight"
+            id="skills-heading"
+          >
             Matriks Kompetensi Pendidik
           </h2>
-          <div className="w-16 h-1 bg-warm-accent-400 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-brand-400 mx-auto mt-4 rounded-full" />
         </div>
 
         {/* Responsive Grid of Categories */}
@@ -65,7 +79,9 @@ export default function Skills() {
 
               {/* Category Header */}
               <div className="flex items-center gap-3 mb-6">
-                <div className={`p-2.5 rounded-xl border ${getCategoryColor(cat.iconName)}`}>
+                <div
+                  className={`p-2.5 rounded-xl border ${getCategoryColor(cat.iconName)}`}
+                >
                   {getIcon(cat.iconName)}
                 </div>
                 <h3 className="font-sans text-base sm:text-lg font-bold text-brand-950">
@@ -95,36 +111,42 @@ export default function Skills() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto bg-gradient-to-r from-brand-900 to-brand-950 text-white rounded-3xl p-6 sm:p-8 shadow-lg relative overflow-hidden"
+          className="max-w-4xl mx-auto bg-gradient-to-r from-brand-800 via-brand-700 to-brand-950 text-white rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden ring-1 ring-brand-700/30"
         >
           {/* Decorative subtle background overlay */}
-          <div className="absolute right-0 bottom-0 w-64 h-64 bg-brand-800/20 rounded-full filter blur-2xl" />
-          
+          <div className="absolute right-0 bottom-0 w-72 h-72 bg-brand-900 rounded-full filter blur-3xl" />
+
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center relative z-10">
-            <div className="md:col-span-8 space-y-3">
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-500/20 text-amber-300 text-[10px] font-bold uppercase tracking-widest">
-                <ShieldCheck className="w-3.5 h-3.5" />
+            <div className="md:col-span-8 space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-brand-600/25 text-white text-[11px] font-bold uppercase tracking-widest shadow-sm">
+                <ShieldCheck className="w-4 h-4" />
                 <span>Sertifikasi Nasional Resmi</span>
               </div>
-              <h3 className="font-sans text-xl sm:text-2xl font-bold tracking-tight">
+              <h3 className="font-sans text-2xl sm:text-3xl font-extrabold tracking-tight">
                 Junior Office Operator (BNSP)
               </h3>
-              <p className="text-xs sm:text-sm text-brand-100 max-w-xl leading-relaxed">
-                Diakreditasi secara resmi oleh Badan Nasional Sertifikasi Profesi (BNSP), menandakan kompetensi teknis profesional dan andal dalam operasional perkantoran, manipulasi pengolah data, dan administasi digital sekolah dasar.
+              <p className="text-sm sm:text-base text-brand-100 max-w-xl leading-relaxed">
+                Diakreditasi secara resmi oleh Badan Nasional Sertifikasi
+                Profesi (BNSP), menandakan kompetensi teknis profesional dan
+                andal dalam operasional perkantoran, manipulasi pengolah data,
+                dan administrasi digital sekolah dasar.
               </p>
             </div>
             <div className="md:col-span-4 flex justify-start md:justify-end">
-              <div className="p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 inline-flex items-center gap-3">
-                <Award className="w-10 h-10 text-amber-400 shrink-0" />
+              <div className="p-6 bg-white/10 backdrop-blur-md rounded-3xl border border-white/20 inline-flex items-center gap-4">
+                <Award className="w-12 h-12 text-white shrink-0" />
                 <div className="flex flex-col">
-                  <span className="text-[9px] font-bold text-amber-300 uppercase leading-none">Penyelenggara</span>
-                  <span className="text-sm font-extrabold text-white mt-1">LSP BNSP RI</span>
+                  <span className="text-[10px] font-bold text-white uppercase leading-none">
+                    Penyelenggara
+                  </span>
+                  <span className="text-sm font-extrabold text-white mt-1">
+                    LSP BNSP RI
+                  </span>
                 </div>
               </div>
             </div>
           </div>
         </motion.div>
-
       </div>
     </section>
   );
